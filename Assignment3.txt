@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Assignment3</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="main1.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+
+    </head>
+    <body class="borders">
+      
+        <!--    <form class="relative1">
+          Name<span class="red">*</span>:
+          <input class="relative2"  type="text" name="Name" placeholder="Sample Data Mapper" size="50"><br>
+      </form>  -->
+    <div class="fixed">  
+        <form class="relative1">
+          Name<span class="red">*</span>:
+          <input class="relative2" type="text" name="Name" placeholder="Sample Data Mapper" size="50"><br>
+        </form> 
+      
+        <ul>
+          <li><a href="#">Standard field</a></li>
+          <li><a href="#">Custom Field </a></li>
+          <li><a href="#">Default Values</a></li>
+          <li><a href="#">Rules</a></li>
+        </ul>
+      
+        <ul class="fixed1">
+        <li><a href="default.asp">Standard field</a></li>
+        </ul>
+     </div> 
+      
+      <div class="fixed2">
+      <table cellpadding="10" id="accno1">
+        <tr>
+        <td><input type="checkbox" name="accountNumber" value="AccountNumber" id="accno"> AccountNumber</td>&nbsp;
+        <td><input class="marginleft" type="text" name="AccountNumber" placeholder="accountNumber" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="AccountNumber"  size="10"></td>
+          <td width="120px" align="center"><i class="far fa-edit"></i></td></div>
+         
+        </tr>
+        <tr>
+        <td><input type="checkbox" name="ParentNumber" value="ParentNumber" id="parno"> ParentNumber</td>&nbsp;
+        <td><input class="marginleft" type="text" name="ParentNumber" placeholder="ParentNumber" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="ParentNumber"  size="10"></td>
+          <td width="120px" align="center"><i class="fas fa-plus-circle"></i></span></td>
+        </tr>
+      <tr>
+        <td><input type="checkbox" name="dateofbirth" value="dateofbirth" id="dob"> dateofbirth</td>&nbsp;
+        <td><input class="marginleft" type="text" name="dateofbirth" placeholder="dateofbirth" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="dateofbirth"  size="10"></td>
+         <td width="120px" align="center"><i class="fas fa-plus-circle"></i></td>
+        </tr>
+        <tr>
+        <td><input type="checkbox" name="Gender" value="Gender" id="gen"> Gender</td>&nbsp;
+        <td><input class="marginleft" type="text" name="Gender" placeholder="Gender" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="Gender"  size="10"></td>
+           <td width="120px" align="center"><i class="fas fa-plus-circle"></i></td>
+        
+        </tr>
+      <tr>
+        <td><input type="checkbox" name="fullName" value="fullName id="fulnam""> fullName</td>&nbsp;
+        <td><input class="marginleft" type="text" name="fullName" placeholder="fullName" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="fullName"  size="10"></td>
+        <td width="120px" align="center"><i class="far fa-edit"></i></td>
+        </tr>
+        <tr>
+        <td><input type="checkbox" name="firstName" value="firstName" id="firnam"> firstName</td>&nbsp;
+        <td><input class="marginleft" type="text" name="firstName" placeholder="firstName" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="firstName"  size="10"></td>
+          <td width="120px" align="center"><i class="far fa-edit"></i></td>
+        </tr>
+      <tr>
+        <td><input type="checkbox" name="middleName" value="middleName" id="midnam"> middleName</td>&nbsp;
+        <td><input class="marginleft" type="text" name="middleName" placeholder="middleName" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="middleName"  size="10"></td>
+        <td width="120px" align="center"><i class="fas fa-plus-circle"></i></td>
+        </tr>
+        <tr>
+        <td><input type="checkbox" name="lastName" value="lastName" id="lasnam"> lastName</td>&nbsp;
+        <td><input class="marginleft" type="text" name="lastName" placeholder="lastName" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="lastName"  size="10"></td>
+          <td width="120px" align="center"><i class="far fa-edit"></i></td>
+        </tr>
+      <tr>
+        <td><input type="checkbox" name="Address1" value="Address1" id="add1"> Address1</td>&nbsp;
+        <td><input class="marginleft" type="text" name="Address1" placeholder="Address1" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="Address1"  size="10"></td>
+        <td width="120px" align="center"><i class="fas fa-plus-circle"></i></td>
+        </tr>
+        <tr>
+        <td><input type="checkbox" name="Address2" value="Address2" id="add2"> Address3</td>&nbsp;
+        <td><input class="marginleft" type="text" name="Address2" placAddress3eholder="Address2" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="Address2"  size="10"></td>
+        <td width="120px" align="center"><i class="far fa-edit"></i></td>
+        </tr>
+      <tr>
+        <td><input type="checkbox" name="Address3" value="Address3" id="add3"> Address4</td>&nbsp;
+        <td><input class="marginleft" type="text" name="Address3" placeholder="Address3" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="Address3"  size="10"></td>
+        <td width="120px" align="center"><i class="far fa-edit"></i></td>
+        </tr>
+        <tr>
+        <td><input type="checkbox" name="Address4" value="Address4" id="add4"> Address4</td>&nbsp;
+        <td><input class="marginleft" type="text" name="Address4" placeholder="Address4" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="Address4"  size="10"></td>
+         <td width="120px" align="center"><i class="fas fa-plus-circle"></i></td>
+        </tr>
+      <tr>
+        <td><input type="checkbox" name="City" value="City" id="city"> City</td>&nbsp;
+        <td><input class="marginleft" type="text" name="City" placeholder="City" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="City"  size="10"></td>
+        <td width="120px" align="center"><i class="far fa-edit"></i></td>
+        </tr>
+        <tr>
+        <td><input type="checkbox" name="State" value="State" id="state"> State</td>&nbsp;
+        <td><input class="marginleft" type="text" name="State" placeholder="State" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="State"  size="10"></td>
+          <td width="120px" align="center"><i class="fas fa-plus-circle"></i></td>
+        </tr>
+      <tr>
+        <td><input type="checkbox" name="Zip" value="Zip" id="zip"> Zip</td>&nbsp;
+        <td><input class="marginleft" type="text" name="Zip" placeholder="Zip" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="Zip"  size="10"></td>
+      <td width="120px" align="center"><i class="fas fa-plus-circle"></i></td>
+        </tr>
+        <tr>
+        <td><input type="checkbox" name="homePhoneNum" value="homePhoneNum" id="homph"> homePhoneNum</td>&nbsp;
+        <td><input class="marginleft" type="text" name="homePhoneNum" placeholder="homePhoneNum" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="homePhoneNum"  size="10"></td>
+          <td width="120px" align="center"><i class="fas fa-plus-circle"></i></td>
+        </tr>
+      <tr>
+        <td><input type="checkbox" name="cellPhoneNum" value="cellPhoneNum" id="cell"> cellPhoneNum</td>&nbsp;
+        <td><input class="marginleft" type="text" name="cellPhoneNum" placeholder="cellPhoneNum" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="cellPhoneNum"  size="10"></td>
+        <td width="120px" align="center"><i class="fas fa-plus-circle"></i></td>
+        </tr>
+        <tr>
+        <td><input type="checkbox" name="currentBalance" value="currentBalance" id="currbal"> currentBalance</td>&nbsp;
+        <td><input class="marginleft" type="text" name="currentBalance" placeholder="currentBalance" size="20"></td>&nbsp;
+        <td><input class="marginleft" type="text" name="currentBalance"  size="10"></td>
+          <td width="120px" align="center"><i class="fas fa-plus-circle"></i></td>
+        </tr>
+      
+      </table>
+      </div>
+      <div class="fixed3">
+      <table>
+      <tr>
+      <td>
+      CustomData2  
+      </td>  
+      </tr>
+      <tr>
+      <td>
+      CustomData3  
+      </td>  
+      </tr>
+      <tr>
+      <td>
+      CustomData4
+      </td>  
+      </tr>
+      <tr>
+      <td>
+      CustomData5  
+      </td>  
+      </tr>
+      <tr>
+      <td>
+      CustomData6  
+      </td>  
+      </tr>
+      <tr>
+      <td>
+      CustomData7
+      </td>  
+      </tr>
+      <tr>
+      <td>
+      CustomData8  
+      </td>  
+      </tr>
+      <tr>
+      <td>
+      CustomData9  
+      </td>  
+      </tr>
+      <tr>
+      <td>
+      CustomData10  
+      </td>  
+      </tr>    
+      <tr>
+      <td id="demo">
+        
+      </td>  
+      </tr>    
+      </table>
+      </div>
+      
+      <!--BUTTONS-->
+      
+      <div class="middlebuttons">
+        <div><button class="buttoncolor">>></button></div>
+        <div><button class="buttoncolor" onclick="myFunction()">&nbsp;>&nbsp;</button></div>
+        <div><button class="buttoncolor">&nbsp;<&nbsp;</button></div>
+        <div><button class="buttoncolor"><<</button></div>
+      </div>
+      
+      <div class="bottombuttons">
+        <button class="buttoncolor"><i class="far fa-save"></i> Save</button>
+        <button class="buttoncolor"><i class="fas fa-play"></i> Result</button>
+        <button class="buttoncolor"><i class="fas fa-times"></i> Cancel</button>
+      </div>
+
+   
+   <script>
+function myFunction() {
+     var x = document.getElementById("accno").value;
+    var y = document.getElementById("accno").checked;
+     if ( y=== true){
+    document.getElementById("demo").innerHTML = x;
+    }
+    
+    var x = document.getElementById("parno").value;
+    var y = document.getElementById("parno").checked;
+     if ( y=== true){
+    document.getElementById("demo").innerHTML = x;
+    }
+    
+}
+</script>
+
+
+
+
+
+
+
+  /*  <script>
+function myFunction() {
+   
+   var table = document.getElementById("accno1");
+   
+for (var i = 0, cell; cell = table.cells[i]; i++) {
+    
+      var x = document.getElementById("accno1").value;
+    var y = document.getElementById("accno1").checked;
+     var z = document.getElementById("accno1").rows.length;
+   
+    if ( y=== true){
+    document.getElementById("demo").innerHTML = x;
+    
+    }
+    
+    
+    }
+
+
+    
+}
+</script>
+
+*/
+      
+        
+    </body>
+</html>
+<!--
+
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[     CODE THE WEB     ]:::::]
+    [:::::[  http://brackets.io  ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->

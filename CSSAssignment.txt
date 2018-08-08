@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Test Application</title>
+  <style>
+    
+/* Style the top navigation bar */
+.topnav {
+    position :relative;
+  top:50px;
+  left:60px;
+
+    overflow: hidden;
+    background-color: purple;
+  width: 1100px;}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: grey;
+    color: black;
+}
+    
+    
+.lefttop{
+  position :relative;
+  top:100px;
+  left:60px;
+    background-color: purple;
+    width: 20%;
+    padding: 15px 10px;
+      color: #f2f2f2;
+    --margin-top: 20px;
+
+}
+
+ .lefttop:hover {
+    background-color: lightblue;
+    color: black;
+} 
+    .topmiddle {
+  position :absolute;
+  top:170px;
+  left:400px;
+    background-color: purple;
+    width: 30%;
+    padding: 100px 10px;
+      color: #f2f2f2;
+    }
+
+    img {
+    border-radius: 50%;
+}
+   
+    .bottommiddle {
+  position :absolute;
+  top:550px;
+  left: 400px;
+    background-color: purple;
+    width: 30%;
+    padding: 30px 10px;
+      color: white;
+    }
+
+
+
+ .topright {
+  position :absolute;
+  top:170px;
+  right: 100px;
+    background-color: purple;
+    width: 22%;
+    padding: 20px 10px;
+      color: #f2f2f2;
+    }
+    
+    .bottomleft {
+  position :absolute;
+  top:470px;
+  left: 70px;
+    background-color: purple;
+    width: 20%;
+    padding: 20px 10px;
+      color: #f2f2f2;
+    }
+    
+    
+
+     .bottomright {
+  position :absolute;
+  top:400px;
+  right: 100px;
+    background-color: purple;
+    width: 22%;
+    padding: 20px 10px;
+      color: #f2f2f2;
+    }
+
+    .button1{
+      background-color: lightblue;
+    color: black;
+      padding:15px 40px;
+      border-radius: 5px ;
+    }
+    
+    .input1{
+        border-radius: 5px ;
+      padding:15px 10px;
+      border: none;      
+      
+    }
+body{
+background: black;
+}
+    
+      
+  </style>
+</head>
+<body>
+
+
+  <div class="topnav">
+    <a href="#">Settings</a>
+  <a href="#">Account</a>
+  <a href="#">Messages</a>
+    <a href="#">Favourites</a>
+  <a href="#" style="float:right">Me</a>
+  </div>  
+  
+  <div class="lefttop" margin-top:"20px">Menu Box</div>
+  <div class="lefttop">Invites</div>
+ <div class="lefttop">Messages</div>
+  <div class="lefttop">Events</div>
+    <div class="lefttop">Account Settings</div>
+    <div class="lefttop">Statistics</div>
+  
+   
+ <div class="bottomleft">
+    <p align="center"> OS AUDIENCE STATS</p>
+    <br>
+    <br>
+    
+   <br>
+    <br>
+   <br>
+    <br>
+    
+  </div>
+
+  
+  <div class="topmiddle">
+    <img src="C:\Users\Ravi\Desktop\HTML\remitly.jpg" alt="remitly" width="200" height="68">
+    
+    </div>
+  
+  <div class="bottommiddle">
+    
+     <div align="center">Country</div>
+    <br>
+   <input type="date">
+   
+  </div>
+  
+  
+ <div class="topright">
+    <p align="center"> JOIN THE NEWSLETTER</p>
+     <input class="input1" type="email" name="email" placeholder="Email Id" size="20">
+    <br>
+    <br>
+     <input class="button1" type="submit" name="signin" value="SUBSCRIBE">
+   </div>
+
+  
+  <div class="bottomright">
+    <p align="center">SIGN INTO YOUR ACCOUNT</p>
+     <input class="input1" type="email" name="email" placeholder="Email Id" size="20">
+    <br>
+    <br>
+    <input class="input1" type="password" name="password" placeholder="password" size="20">
+    <br>
+    <br>
+     <input class="button1" type="submit" name="signin" value="SIgn In">
+    <br>
+    <br>
+    <a href="#" style="color:white">Forgot Password</a>
+   </div>
+<div>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+</body>
+</html>

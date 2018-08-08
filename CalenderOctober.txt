@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Test Calender</title>
+  <style>
+table, th, td {
+    border: 1px solid black;
+    
+  }
+    td{
+      height:500px;
+      width:500px;
+      text-align:left;
+                } 
+</style>
+
+</head>
+<body>
+  <h1 style="text-align:center"> October 2016 </h1>
+<table>
+  <tr>
+    <th>Sunday</th>
+    <th>Monday</th> 
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th> 
+    <th>Friday</th>
+    <th>Saturday</th>    
+  </tr>
+  <tr>
+    <td bgcolor="purple"></td>
+    <td bgcolor="purple"></td>
+    <td bgcolor="purple"></td>
+    <td bgcolor="purple"></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+      <td bgcolor="yellow">7 <a href='http://www.worldsmileday.com/'>
+        World Smile Day</a></td>
+    <td>8</td>
+    <td bgcolor="green">9 <a href='http://www.googletoday.com/'>
+        googletoday</a></td></td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td><img src="C:\Users\Ravi\Desktop\HTML\image.JPG" 
+             alt="tupil" border=3 height=100 width=100>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>19</td>
+    <td>20</td>
+    <td>21</td>
+    <td>22</td>
+    <td><img src="C:\Users\Ravi\Desktop\HTML\dog.JPG" 
+             alt="dog" border=3 height=100 width=100>23</td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td bgcolor="brown">25 <a href='http://www.google.com/'>
+        google</a> </td>
+    <td>26</td>
+    <td>27</td>
+    <td>28</td>
+    <td>29</td>
+    <td>30</td>
+    <td><img src="C:\Users\Ravi\Desktop\HTML\car.JPG" 
+             alt="car" border=3 height=100 width=100>31</td>
+  </tr>
+  
+</table>
+
+</body>
+</html>

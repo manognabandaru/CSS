@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Assignment 2</title>
+  <style>
+    .div1 {
+      
+         color:white;
+    background-color: white;
+     padding: 10px 200px;
+      text-align: right;
+  }
+  
+  .div2 {
+    
+      color:white;
+    background-color: #5b78b7;
+     -- width: 300px;
+    --border: 25px solid green;
+    padding: 5px 200px;
+   -- margin: 50px;
+  }
+  .div3 {
+
+         background: linear-gradient(to right, #0096888f, #FFCC80);
+         color:white;
+    
+     padding: 50px 200px;
+   text-align: center;
+  }
+    .button1{
+      background-color: white;
+    color: grey;
+    border: 2px solid grey;
+      padding:10px 30px;
+      border-radius: 5px ;
+    }
+    .button2{
+      background-color: white;
+    color: green;
+    border: 2px solid green;
+      padding:10px 30px;
+      border-radius: 5px ;
+    }
+    .button3{
+      background-color: lightgreen;
+    color: white;
+    border: 2px solid green;
+      padding:15px 50px;
+      border-radius: 5px ;
+    }
+    .input1{
+      border-radius: 5px ;
+      padding:15px 30px;
+      border: none;
+      
+    }
+
+
+
+#div0{
+                position : absolute;
+                top: 10px;
+                right: 300px;
+}
+#div01{
+                position : absolute;
+                top: 10px;
+                right: 210px;
+}
+#div02{
+                position : absolute;
+                top: 120px;
+                right: 250px;
+}
+#div03{
+                position : absolute;
+                top: 200px;
+                right: 260px;
+color:white;
+}
+
+    img {
+    border-radius: 50%;
+}   
+      </style>
+</head>
+
+<body>
+  <div class="div1">
+    <img src="C:\Users\Ravi\Desktop\HTML\remitly.jpg" alt="remitly" >
+<div id="div0">
+    <select name="Country">
+    <option value="USA">USA</option>
+    <option value="India">India</option>
+  </select>
+</div>
+<div id="div01">
+  <select name="Lang">
+    <option value="English">English</option>
+    <option value="Hindi">Hindi</option>
+  </select>
+  </div>
+    <br>
+    <input class="button1" type="button" name="Sign In" value="Sign In">
+    <input class="button2" type="button" name="Join Now" value="Join Now">
+    <br>
+    
+  </div>
+  <div class="div2">
+   <form> 
+     <h3 > Sign in to send money now </h3>
+     <div id="div02"> Need an account? Join Now </div>
+       
+       <input class="input1" type="email" name="email" placeholder="Email Id" size="35">
+     <input class="input1" type="password" name="password" placeholder="password" size="35">
+     <input class="button3" type="submit" name="signin" value="Sign In">
+     <br>
+<br>
+<br>
+     <a id="div03"  href="http://www.google.com" >
+       Forgot your password?</a>
+
+    </form>
+  </div>
+  <div class="div3" >
+   <form> 
+     <h2 > Now send upto $20,000 with Remitly </h2>
+     <h4 > Take a look at our rates today  </h4>
+    </form>
+  </div>
+  
+  
+  
+</body>
+</html>
